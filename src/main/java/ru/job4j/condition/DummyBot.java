@@ -17,7 +17,7 @@ public class DummyBot {
 
         String rsl = DummyBot.answer("Привет, Бот.");
         System.out.println(rsl);
-        rsl = DummyBot.answer("Как пройти в театр?");
+        rsl = DummyBot.answer("Как пройти в театры?");
         System.out.println(rsl);
         rsl = DummyBot.answer("Пока.");
         System.out.println(rsl);
