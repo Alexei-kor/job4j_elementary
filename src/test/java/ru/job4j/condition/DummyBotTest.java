@@ -30,7 +30,7 @@ public class DummyBotTest {
     @Test
     public void whenOther() {
 
-        String in = "Как пройти к метро.";
+        String in = "Как пройти в театр.";
         String expected = "Это ставит меня в тупик. Задайте другой вопрос.";
         String out = DummyBot.answer(in);
         Assert.assertEquals(expected, out);
