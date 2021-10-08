@@ -13,7 +13,7 @@ public class MaxTest {
         int first = 10;
         int second = 5;
         int expected = 10;
-        int out = Max.max(first, second);
+        int out = Max.maximum(first, second);
         Assert.assertEquals(expected, out);
 
     }
