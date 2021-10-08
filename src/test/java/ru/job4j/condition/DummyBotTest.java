@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class DummyBotTest {
 
     @Test
-    public void whenHyTheyHy() {
+    public void whenHyThenHy() {
         String in = "Привет, Бот.";
         String expected = "Привет, умник.";
         String out = DummyBot.answer(in);
