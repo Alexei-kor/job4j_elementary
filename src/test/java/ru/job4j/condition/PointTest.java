@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void when5678() {
+    public void when5678Then283() {
 
         int x1 = 5;
         int y1 = 6;
@@ -22,7 +22,7 @@ public class PointTest {
     }
 
     @Test
-    public void when9111112() {
+    public void when9111112Then224() {
 
         int x1 = 9;
         int y1 = 11;
@@ -36,7 +36,7 @@ public class PointTest {
     }
 
     @Test
-    public void when15162122() {
+    public void when15162122Then849() {
 
         int x1 = 15;
         int y1 = 16;
