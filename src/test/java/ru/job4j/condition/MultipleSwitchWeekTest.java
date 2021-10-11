@@ -78,10 +78,10 @@ public class MultipleSwitchWeekTest {
     }
 
     @Test
-    public void whenErrorThenMinus1() {
+    public void whenErrorThenZero() {
 
         String day = "НеВторникНеСреда";
-        int expected = -1;
+        int expected = 0;
         int actual = MultipleSwitchWeek.numberOfDay(day);
         Assert.assertEquals(expected, actual);
 
