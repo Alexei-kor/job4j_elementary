@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class SwitchWeekTest {
 
     @Test
-    public void When1ThenMonday() {
+    public void when1ThenMonday() {
 
         int day = 1;
         String expected = "Понедельник";
@@ -18,7 +18,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void When2ThenTuesday() {
+    public void when2ThenTuesday() {
 
         int day = 1;
         String expected = "Понедельник";
@@ -28,7 +28,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void When3ThenWednesday() {
+    public void when3ThenWednesday() {
 
         int day = 1;
         String expected = "Понедельник";
@@ -38,7 +38,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void When4ThenThursday() {
+    public void when4ThenThursday() {
 
         int day = 1;
         String expected = "Понедельник";
@@ -48,7 +48,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void When5ThenFriday() {
+    public void when5ThenFriday() {
 
         int day = 1;
         String expected = "Понедельник";
@@ -58,7 +58,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void When6ThenSaturday() {
+    public void when6ThenSaturday() {
 
         int day = 1;
         String expected = "Понедельник";
@@ -68,7 +68,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void When7ThenSunday() {
+    public void when7ThenSunday() {
 
         int day = 1;
         String expected = "Понедельник";
@@ -78,7 +78,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void When0ThenError() {
+    public void when0ThenError() {
 
         int day = 0;
         String expected = "Ошибка";
