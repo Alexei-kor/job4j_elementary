@@ -20,8 +20,8 @@ public class SwitchWeekTest {
     @Test
     public void when2ThenTuesday() {
 
-        int day = 1;
-        String expected = "Понедельник";
+        int day = 2;
+        String expected = "Вторник";
         String actual = SwitchWeek.nameOfDay(day);
         Assert.assertEquals(expected, actual);
 
@@ -30,8 +30,8 @@ public class SwitchWeekTest {
     @Test
     public void when3ThenWednesday() {
 
-        int day = 1;
-        String expected = "Понедельник";
+        int day = 3;
+        String expected = "Среда";
         String actual = SwitchWeek.nameOfDay(day);
         Assert.assertEquals(expected, actual);
 
@@ -40,8 +40,8 @@ public class SwitchWeekTest {
     @Test
     public void when4ThenThursday() {
 
-        int day = 1;
-        String expected = "Понедельник";
+        int day = 4;
+        String expected = "Четверг";
         String actual = SwitchWeek.nameOfDay(day);
         Assert.assertEquals(expected, actual);
 
@@ -50,8 +50,8 @@ public class SwitchWeekTest {
     @Test
     public void when5ThenFriday() {
 
-        int day = 1;
-        String expected = "Понедельник";
+        int day = 5;
+        String expected = "Пятница";
         String actual = SwitchWeek.nameOfDay(day);
         Assert.assertEquals(expected, actual);
 
@@ -60,8 +60,8 @@ public class SwitchWeekTest {
     @Test
     public void when6ThenSaturday() {
 
-        int day = 1;
-        String expected = "Понедельник";
+        int day = 6;
+        String expected = "Суббота";
         String actual = SwitchWeek.nameOfDay(day);
         Assert.assertEquals(expected, actual);
 
@@ -70,8 +70,8 @@ public class SwitchWeekTest {
     @Test
     public void when7ThenSunday() {
 
-        int day = 1;
-        String expected = "Понедельник";
+        int day = 7;
+        String expected = "Воскресенье";
         String actual = SwitchWeek.nameOfDay(day);
         Assert.assertEquals(expected, actual);
 
