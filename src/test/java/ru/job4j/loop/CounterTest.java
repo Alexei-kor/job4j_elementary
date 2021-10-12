@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class CounterTest {
 
     @Test
-    public void WhenFrom0To5Then15() {
+    public void whenFrom0To5Then15() {
 
         int start = 0;
         int finish = 5;
