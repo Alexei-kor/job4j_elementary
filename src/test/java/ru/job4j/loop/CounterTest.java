@@ -17,4 +17,16 @@ public class CounterTest {
         Assert.assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void whenFrom0To10OnlyEvenThen30() {
+
+        int start = 0;
+        int finish = 10;
+        int expected = 30;
+        int actual = Counter.sumByEven(start, finish);
+        Assert.assertEquals(expected, actual);
+
+    }
+
 }
