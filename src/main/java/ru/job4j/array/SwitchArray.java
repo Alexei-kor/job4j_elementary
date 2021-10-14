@@ -15,4 +15,11 @@ public class SwitchArray {
             System.out.println(rsl[index]);
         }
     }
+
+    public static int[] swap(int[] array, int source, int dest) {
+        int tmp = array[dest];
+        array[dest] = array[source];
+        array[source] = tmp;
+        return array;
+    }
 }
