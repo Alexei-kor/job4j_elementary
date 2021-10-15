@@ -7,9 +7,7 @@ public class SortSelected {
         for (int index = 0; index < data.length; index++) {
             int min = MinDiapason.findMin(data, index, data.length - 1);
             int indexFind = FindLoop.indexOf(data, min, index, data.length - 1);
-            int tmp = data[index];
-            data[index] = data[indexFind];
-            data[indexFind] = tmp;
+            data = SwitchArray.swap(data, indexFind, index);
         }
         return data;
     }
