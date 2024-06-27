@@ -1,9 +1,9 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class X2Test {
 
@@ -16,7 +16,7 @@ public class X2Test {
         int x = 1;
         int expected = 3;
         int out = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
 
     }
 
@@ -29,7 +29,7 @@ public class X2Test {
         int x = 1;
         int expected = 2;
         int out = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
 
     }
 
@@ -42,7 +42,7 @@ public class X2Test {
         int x = 1;
         int expected = 2;
         int out = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
 
     }
 
@@ -55,7 +55,7 @@ public class X2Test {
         int x = 0;
         int expected = 1;
         int out = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
 
     }
 

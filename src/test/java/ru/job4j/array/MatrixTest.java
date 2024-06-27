@@ -1,9 +1,9 @@
 package ru.job4j.array;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MatrixTest {
 
@@ -15,7 +15,7 @@ public class MatrixTest {
                 {1, 2},
                 {2, 4}
         };
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class MatrixTest {
                 {4, 8, 12, 16, 20},
                 {5, 10, 15, 20, 25}
         };
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -47,6 +47,6 @@ public class MatrixTest {
                 {8, 16, 24, 32, 40, 48, 56, 64, 72},
                 {9, 18, 27, 36, 45, 54, 63, 72, 81}
         };
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 }

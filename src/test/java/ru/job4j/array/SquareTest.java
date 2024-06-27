@@ -1,9 +1,9 @@
 package ru.job4j.array;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SquareTest {
 
@@ -12,7 +12,7 @@ public class SquareTest {
         int bound = 3;
         int[] result = Square.calculate(bound);
         int[] expected = new int[] {0, 1, 4};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -20,6 +20,6 @@ public class SquareTest {
         int bound = 5;
         int[] expected = new int[] {0, 1, 4, 9, 16};
         int[] actual = Square.calculate(bound);
-        Assert.assertArrayEquals(expected, actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
 }

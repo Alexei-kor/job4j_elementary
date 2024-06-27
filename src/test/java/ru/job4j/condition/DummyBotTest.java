@@ -1,9 +1,9 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DummyBotTest {
 
@@ -12,7 +12,7 @@ public class DummyBotTest {
         String in = "Привет, Бот.";
         String expected = "Привет, умник.";
         String out = DummyBot.answer(in);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class DummyBotTest {
         String in = "Пока.";
         String expected = "До скорой встречи.";
         String out = DummyBot.answer(in);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
     }
 
     @Test
@@ -28,6 +28,6 @@ public class DummyBotTest {
         String in = "Как пройти в театры.";
         String expected = "Это ставит меня в тупик. Задайте другой вопрос.";
         String out = DummyBot.answer(in);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
     }
 }

@@ -1,9 +1,9 @@
 package ru.job4j.array;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class EqLastTest {
 
@@ -12,7 +12,7 @@ public class EqLastTest {
         int[] left = {1, 2, 3};
         int[] right = {5, 4, 3};
         boolean result = EqLast.check(left, right);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 
     @Test
@@ -20,6 +20,6 @@ public class EqLastTest {
         int[] left = {1, 2, 3};
         int[] right = {3, 3, 4};
         boolean result = EqLast.check(left, right);
-        Assert.assertFalse(result);
+        Assertions.assertFalse(result);
     }
 }

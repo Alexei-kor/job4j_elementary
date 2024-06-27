@@ -1,9 +1,9 @@
 package ru.job4j.array;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MashineTest {
 
@@ -13,7 +13,7 @@ public class MashineTest {
         int price = 100;
         int[] result = Mashine.change(money, price);
         int[] expected = {};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class MashineTest {
         int price = 35;
         int[] result = Mashine.change(money, price);
         int[] expected = {10, 5};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -31,7 +31,7 @@ public class MashineTest {
         int price = 21;
         int[] result = Mashine.change(money, price);
         int[] expected = {10, 10, 5, 2, 2};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -40,6 +40,6 @@ public class MashineTest {
         int price = 32;
         int[] result = Mashine.change(money, price);
         int[] expected = {10, 5, 2, 1};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 }

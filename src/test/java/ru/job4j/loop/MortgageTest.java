@@ -1,9 +1,9 @@
 package ru.job4j.loop;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MortgageTest {
 
@@ -14,7 +14,7 @@ public class MortgageTest {
         double percent = 1;
         int result = Mortgage.year(amount, salary, percent);
         int expected = 1;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -24,6 +24,6 @@ public class MortgageTest {
         double percent = 50;
         int result = Mortgage.year(amount, salary, percent);
         int expected = 2;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 }

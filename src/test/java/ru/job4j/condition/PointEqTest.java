@@ -1,9 +1,9 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class PointEqTest {
 
@@ -15,7 +15,7 @@ public class PointEqTest {
         int x2 = 3;
         int y2 = 4;
         boolean actual = PointEq.eq(x1, y1, x2, y2);
-        Assert.assertFalse(actual);
+        Assertions.assertFalse(actual);
 
     }
 
@@ -27,7 +27,7 @@ public class PointEqTest {
         int x2 = 1;
         int y2 = 1;
         boolean actual = PointEq.eq(x1, y1, x2, y2);
-        Assert.assertTrue(actual);
+        Assertions.assertTrue(actual);
 
     }
 }

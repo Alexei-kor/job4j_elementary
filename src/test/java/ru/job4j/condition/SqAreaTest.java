@@ -1,9 +1,9 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SqAreaTest {
 
@@ -14,7 +14,7 @@ public class SqAreaTest {
         double expected = 2.73;
         double out = SqArea.square(p, k);
         double diff = 0.01;
-        Assert.assertEquals(expected, out, diff);
+        Assertions.assertEquals(expected, out, diff);
     }
 
     @Test
@@ -24,6 +24,6 @@ public class SqAreaTest {
         double expected = 3.80;
         double out = SqArea.square(p, k);
         double diff = 0.01;
-        Assert.assertEquals(expected, out, diff);
+        Assertions.assertEquals(expected, out, diff);
     }
 }

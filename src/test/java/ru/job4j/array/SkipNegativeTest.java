@@ -1,9 +1,9 @@
 package ru.job4j.array;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SkipNegativeTest {
 
@@ -18,7 +18,7 @@ public class SkipNegativeTest {
                 {1, 0},
                 {1, 2}
         };
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -36,6 +36,6 @@ public class SkipNegativeTest {
                 {1, 0, 3, 0},
                 {1, 2, 0, 0, 5}
         };
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 }

@@ -1,9 +1,9 @@
 package ru.job4j.array;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SortSelectedTest {
 
@@ -12,7 +12,7 @@ public class SortSelectedTest {
         int[] data = new int[] {3, 4, 1, 2, 5};
         int[] result = SortSelected.sort(data);
         int[] expected = new int[] {1, 2, 3, 4, 5};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class SortSelectedTest {
         int[] data = new int[] {99, 88, 77};
         int[] result = SortSelected.sort(data);
         int[] expected = new int[] {77, 88, 99};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 
     @Test
@@ -28,6 +28,6 @@ public class SortSelectedTest {
         int[] data = new int[] {3, 4, 1, 15, 73, 54, 5};
         int[] result = SortSelected.sort(data);
         int[] expected = new int[] {1, 3, 4, 5, 15, 54, 73};
-        Assert.assertArrayEquals(expected, result);
+        Assertions.assertArrayEquals(expected, result);
     }
 }

@@ -1,9 +1,9 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ThreeMaxTest {
 
@@ -14,7 +14,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 10;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -24,7 +24,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 50;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -34,7 +34,7 @@ public class ThreeMaxTest {
         int third = 100;
         int result = ThreeMax.max(first, second, third);
         int expected = 100;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 1;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 10;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -64,7 +64,7 @@ public class ThreeMaxTest {
         int third = 100;
         int result = ThreeMax.max(first, second, third);
         int expected = 100;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -74,7 +74,7 @@ public class ThreeMaxTest {
         int third = 100;
         int result = ThreeMax.max(first, second, third);
         int expected = 100;
-        Assert.assertEquals(expected, result);
+        Assertions.assertEquals(expected, result);
     }
 
 }

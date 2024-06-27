@@ -1,9 +1,9 @@
 package ru.job4j.loop;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class FactorialTest {
 
@@ -12,7 +12,7 @@ public class FactorialTest {
         int n = 5;
         int expected = 120;
         int actual = Factorial.calc(n);
-        Assert.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -20,6 +20,6 @@ public class FactorialTest {
         int n = 0;
         int expected = 1;
         int actual = Factorial.calc(n);
-        Assert.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 }
