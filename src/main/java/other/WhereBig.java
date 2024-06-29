@@ -7,18 +7,11 @@ public class WhereBig {
      * @param args не используется
      */
     public static void main(String[] args) {
-        int a, b, c;
+        System.out.println("u");
 
-        a = 2;
-        b = 1;
-        c = 3;
+    }
 
-        if (a > b & a > c) {
-            System.out.println("a");
-        } else if (b > c) {
-            System.out.println("b");
-        } else {
-            System.out.println("c");
-        }
+    public static int getCount() {
+        return 10;
     }
 }

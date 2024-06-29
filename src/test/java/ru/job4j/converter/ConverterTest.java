@@ -4,7 +4,7 @@ package ru.job4j.converter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.*;
 
 public class ConverterTest {
 
@@ -35,6 +35,6 @@ public class ConverterTest {
         float input = 150;
         float expected = 2.5f;
         float res = Converter.rubleToDollar(input);
-        Assertions.assertEquals(expected, res);
+        assertThat(res).isEqualTo(expected);
     }
 }
