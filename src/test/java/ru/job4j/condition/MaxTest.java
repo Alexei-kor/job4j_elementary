@@ -3,8 +3,6 @@ package ru.job4j.condition;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 public class MaxTest {
 
     @Test
@@ -33,9 +31,9 @@ public class MaxTest {
     public void when10And10Then10() {
 
         int first = 10;
-        int second = 10;
+        int dsdf = 10;
         int expected = 10;
-        int out = Max.maximum(first, second);
+        int out = Max.maximum(first, dsdf);
         Assertions.assertEquals(expected, out);
 
     }

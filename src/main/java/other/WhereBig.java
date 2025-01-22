@@ -11,7 +11,7 @@ public class WhereBig {
 
     }
 
-    public static int getCount() {
+    public int getCount() {
         return 10;
     }
 }
